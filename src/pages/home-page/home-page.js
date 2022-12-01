@@ -2,7 +2,7 @@ import React from "react";
 import { GameItem } from '../../components/game-item';
 import "./home-page.css";
 
-const GAMES = [
+export const GAMES = [
     {
         image: '/game-covers/Assassins.jpg',
         title: 'Forza Horizon 5',

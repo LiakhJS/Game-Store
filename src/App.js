@@ -7,8 +7,6 @@ import {
 import { HomePage } from "./pages/home-page";
 import { Header } from "./components/header";
 
-
-
 function App() {
   return (
     <Router>
@@ -18,7 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />}>
           </Route>
         </Routes>
-      </div>
+      </div> 
     </Router>
   );
 }
